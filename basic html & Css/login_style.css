@@ -1,0 +1,50 @@
+h1{
+    color: red;
+}
+form{
+    text-align: center;
+    padding-top: 40px;
+}
+#B{
+    padding-left: 220px;
+}
+#C{
+    padding-left: 30px;
+}
+#D{
+    padding-left: 90px;
+}
+#E{
+    padding-left: 75px;
+}
+#F{
+    padding-left: 5px;
+}
+#FA{
+    padding-left: 5px;
+}
+#G{
+    padding-right: 58px;
+}
+#H{
+    padding-left: 163px;
+}
+#I{
+    padding-left: 35px;
+}
+#J{
+    padding-left: 110px;
+}
+#K{
+    padding-right: 110px;
+}
+#L{
+    padding-left: 15px;
+}
+button{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30PX;
+    margin-left: 200PX;
+}
+

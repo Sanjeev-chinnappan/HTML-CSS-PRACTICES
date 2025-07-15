@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login_style.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(242, 193, 200);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <center><h1><b>students register from</b></h1></center>
+    <!-- <center> -->
+        <form onsubmit="console.log('formsubmit')">
+            <div id="A"><label for="">Roll No :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input  type="text"  placeholder=" " required><br>
+                <br>
+            </div>
+            <div id="B"><label for="">Student name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input  type="text" placeholder="frist name" required> -
+        <input  type="text" placeholder="last name" required><br>
+        <br>
+        </div>
+        <div id="C"><label for="">Father name :</label>
+        <input type="text" placeholder="enter your name" required><br>
+        <br>
+        </div>
+        <div id="D"><label for="">Date of birth :</label>
+        <input type="number"  min="1" max="31" placeholder="day" required> -
+        <select name="" id="">
+            <option value="">Month</option>
+            <option value="">jan</option>
+            <option value="">feb</option>
+            <option value="">march</option>
+            <option value="">april</option>
+            <option value="">may</option>
+            <option value="">june</option>
+            <option value="">july</option>
+            <option value="">agu</option>
+            <option value="">sep</option>
+            <option value="">oct</option>
+            <option value="">nov</option>
+            <option value="">dec</option>
+        </select> -
+        <input type="number" min="1999" max="2050" placeholder="year" required><br>
+        <br>
+        </div>
+        <div id="E"><label for="">Mobile No :</label>
+        <select name="" id="">
+            <option value="">+91</option>
+            <option value="">-65</option>
+            <option value="">+74</option>
+        </select> -
+        <input type="mobile No" required><br>
+        <br>
+        </div>
+        <div id="F"><label for="">Email ID :</label>
+        <input type="email" required><br>
+        <br>
+         </div>
+        <div id="FA"><label for="">Password :</label>
+        <input type="password" required><br>
+        <br>
+        </div>
+        <div id="G"><label for="">Gender :</label>
+        <input type="radio" name="gen1" required>male
+        <input type="radio" name="gen1" required> female<br>
+        <br>
+        </div>
+        <div id="H"><label for="">Department :</label>
+        <input type="checkbox" value="ck1" > B.Sc
+        <input type="checkbox"value="ck1" > BCA
+        <input type="checkbox" value="ck1" > BBA
+        <input type="checkbox" value="ck1" > MBA
+        <input type="checkbox" value="ck1" > B.COM<br>
+        <br>
+        </div>
+        <div id="I"><label for="">Course :</label>
+        <select name="" id="">
+            <option>-------------select course's------------</option>
+            <option>COMPUTER APPLICATION</option>
+            <option>COMPUTER SCIENCE</option>
+            <option>BUSINESS ADMINITIONS</option>
+        </select><br><br>
+        </div>
+        <div id="J"><label for="">Student photo :</label>
+        <input type="file" required ><br>
+        <br>
+        </div>
+        <div id="K"><label for="">City :</label>
+        <select name="" id="">
+            <option value=""></option>
+            <option value="">erode</option>
+            <option value="">tiruchegode</option>
+            <option value="">salem</option>
+            <option value="">namakkal</option>
+        </select><br>
+        </div>
+        <br>
+        <div id="L"><label for="">ADDRESS :</label>
+        <input type="text" style="height: 50px;" required><br>
+        <br>
+        </div>
+    
+    <!-- </center> -->
+    <center><button type="submit">register</button></center>
+    </div>
+    </form>
+
+</body>
+</html>
